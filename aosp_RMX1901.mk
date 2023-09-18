@@ -9,18 +9,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 
-# Inherit some common PEX stuff.
+# Inherit some common FireDroid stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_ENABLE_BLUR := true
 TARGET_HAS_UDFPS := true
-EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_QUICK_TAP := true
-PEX_BUILD_TYPE := UNOFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_USES_BLUR := true
 
@@ -32,6 +30,10 @@ PRODUCT_DEVICE := RMX1901
 PRODUCT_MANUFACTURER := Realme
 PRODUCT_NAME := aosp_RMX1901
 PRODUCT_MODEL := Realme X
+
+# FireDroid Maintainer Flags
+FIREDROID_MAINTAINER := iRONAN
+CUSTOM_BUILD_TYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
