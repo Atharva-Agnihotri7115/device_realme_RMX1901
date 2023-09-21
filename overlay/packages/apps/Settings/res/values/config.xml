@@ -21,6 +21,9 @@
     <bool name="config_supportBatteryHealth">true</bool>
 
 
+    <!-- Whether device supports in-display fingerprint -->
+    <bool name="config_supportsUdfps">true</bool>
+    
 <!-- The number of vibration intensity levels supported by the device.
          Note that this should correspond to the ability to vary the vibration amplitude, with
          enough dynamic range to have at least as many distinct intensity levels as defined here.
@@ -40,7 +43,4 @@
     <!-- Whether memory from app_info_settings is available or not. -->
     <bool name="config_show_app_info_settings_memory">true</bool>
 
-    <!-- PEX Maintainer -->
-    <string name="pex_maintainer_name" translatable="false">SHRAVAN(SK)</string>
-    <string name="pex_maintainer_group" translatable="false">https://t.me/shrav_1</string>
 </resources>
