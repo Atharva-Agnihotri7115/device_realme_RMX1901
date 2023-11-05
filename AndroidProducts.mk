@@ -9,5 +9,6 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     aosp_RMX1901-userdebug \
+    aosp_RMX1901-user \
     aosp_RMX1901-eng
 
