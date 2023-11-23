@@ -5,10 +5,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX1901.mk
+    $(LOCAL_DIR)/spark_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_RMX1901-userdebug \
-    aosp_RMX1901-user \
-    aosp_RMX1901-eng
+    spark_RMX1901-userdebug \
+    spark_RMX1901-user \
+    spark_RMX1901-eng
 
